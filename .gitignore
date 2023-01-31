@@ -1,0 +1,20 @@
+node_modules
+build_local
+.vscode
+.idea
+Thumbs.db
+.DS_Store
+npm-debug.log
+yarn-error.log
+
+############################
+# Yarn
+############################
+.pnp.*
+.yarn/*
+# !.yarn/cache
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
