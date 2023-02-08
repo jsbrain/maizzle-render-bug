@@ -67,13 +67,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@maizzle/framework@npm:4.2.5":
-  version: 4.2.5
-  resolution: "@maizzle/framework@npm:4.2.5"
+"@maizzle/framework@npm:4.4.0-beta.7":
+  version: 4.4.0-beta.7
+  resolution: "@maizzle/framework@npm:4.4.0-beta.7"
   dependencies:
     "@maizzle/cli": ^1.5.1
-    autoprefixer: ^10.4.0
-    browser-sync: ^2.26.13
+    autoprefixer: ^10.4.13
+    browser-sync: ^2.27.11
     color-shorthand-hex-to-six-digit: ^3.0.2
     email-comb: ^5.2.0
     front-matter: ^4.0.0
@@ -84,32 +84,31 @@ __metadata:
     juice: ^8.0.0
     lodash: ^4.17.20
     ora: ^5.1.0
-    postcss: ^8.4.18
+    postcss: ^8.4.21
     postcss-import: ^15.0.0
-    postcss-merge-longhand: ^5.0.1
+    postcss-merge-longhand: ^5.1.7
     posthtml: ^0.16.6
     posthtml-attrs-parser: ^0.1.1
     posthtml-base-url: ^1.0.1
+    posthtml-component: ^1.0.0-beta.16
     posthtml-content: ^0.1.0
-    posthtml-expressions: ^1.8.1
     posthtml-extend: ^0.6.0
     posthtml-extra-attributes: ^1.0.0
     posthtml-fetch: ^2.2.0
-    posthtml-markdownit: ^1.3.0
+    posthtml-markdownit: ^1.3.1
     posthtml-match-helper: ^1.0.3
-    posthtml-modules: ^0.9.0
     posthtml-mso: ^1.0.4
     posthtml-postcss-merge-longhand: ^1.0.2
     posthtml-safe-class-names: ^2.0.0
     posthtml-url-parameters: ^1.0.4
     pretty: ^2.0.0
-    query-string: ^7.1.0
+    query-string: ^7.1.3
     string-remove-widows: ^2.1.0
     string-strip-html: ^8.2.0
-    tailwindcss: ^3.1.0
+    tailwindcss: ^3.2.4
   bin:
     maizzle: bin/maizzle
-  checksum: 9898f91567d14c48130c410239cc5e7091fa6dc557acc60c0d02e265cae391773b1eaecd82f307b4d76989f5b617f99ef771cf78814d5a8f6532b1ee6cca9c6a
+  checksum: 5d93c8c0cd0f8da148476c1e1e12eab114930ed1af6178e6a446ea54b842178cf6cfa17793f3bc3ddd3916449ce0a870309a25d37ffaa1aa7c8b648030818667
   languageName: node
   linkType: hard
 
@@ -609,7 +608,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"autoprefixer@npm:^10.4.0":
+"autoprefixer@npm:^10.4.13":
   version: 10.4.13
   resolution: "autoprefixer@npm:10.4.13"
   dependencies:
@@ -760,7 +759,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"browser-sync@npm:^2.26.13":
+"browser-sync@npm:^2.27.11":
   version: 2.27.11
   resolution: "browser-sync@npm:2.27.11"
   dependencies:
@@ -2848,6 +2847,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"inline-style-parser@npm:0.1.1":
+  version: 0.1.1
+  resolution: "inline-style-parser@npm:0.1.1"
+  checksum: 5d545056a3e1f2bf864c928a886a0e1656a3517127d36917b973de581bd54adc91b4bf1febcb0da054f204b4934763f1a4e09308b4d55002327cf1d48ac5d966
+  languageName: node
+  linkType: hard
+
 "inquirer-autosubmit-prompt@npm:^0.2.0":
   version: 0.2.0
   resolution: "inquirer-autosubmit-prompt@npm:0.2.0"
@@ -4787,7 +4793,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"postcss-merge-longhand@npm:^5.0.1":
+"postcss-merge-longhand@npm:^5.1.7":
   version: 5.1.7
   resolution: "postcss-merge-longhand@npm:5.1.7"
   dependencies:
@@ -4864,7 +4870,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"postcss@npm:^8.1.10, postcss@npm:^8.4.18, postcss@npm:^8.4.6":
+"postcss@npm:^8.1.10, postcss@npm:^8.4.18, postcss@npm:^8.4.21, postcss@npm:^8.4.6":
   version: 8.4.21
   resolution: "postcss@npm:8.4.21"
   dependencies:
@@ -4896,6 +4902,20 @@ __metadata:
   languageName: node
   linkType: hard
 
+"posthtml-component@npm:^1.0.0-beta.16":
+  version: 1.0.0-beta.16
+  resolution: "posthtml-component@npm:1.0.0-beta.16"
+  dependencies:
+    lodash: ^4.17.21
+    posthtml-attrs-parser: ^0.1.1
+    posthtml-expressions: ^1.9.0
+    posthtml-parser: ^0.11.0
+    posthtml-render: ^3.0.0
+    style-to-object: ^0.3.0
+  checksum: c5d08726ac5133439630fd058ed81a26f6c42922a404d906c90aca3e5060d294ddf4b5cf597455893a8a1dceca5b0633c3281533cac8a3dfa4724a70b92cba11
+  languageName: node
+  linkType: hard
+
 "posthtml-content@npm:^0.1.0":
   version: 0.1.2
   resolution: "posthtml-content@npm:0.1.2"
@@ -4905,7 +4925,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"posthtml-expressions@npm:^1.10.0, posthtml-expressions@npm:^1.6.2, posthtml-expressions@npm:^1.8.1, posthtml-expressions@npm:^1.9.0":
+"posthtml-expressions@npm:^1.10.0, posthtml-expressions@npm:^1.6.2, posthtml-expressions@npm:^1.9.0":
   version: 1.11.0
   resolution: "posthtml-expressions@npm:1.11.0"
   dependencies:
@@ -4953,7 +4973,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"posthtml-markdownit@npm:^1.3.0":
+"posthtml-markdownit@npm:^1.3.1":
   version: 1.3.1
   resolution: "posthtml-markdownit@npm:1.3.1"
   dependencies:
@@ -4972,19 +4992,6 @@ __metadata:
   peerDependencies:
     posthtml: ">=0.5.0"
   checksum: 8d0d0dbe4ca24a27bb3a142830e740109a2f2478ff70edfb7f90bb5f80c2e8586c9bec1a8c576381836393facfd983f61290ad31c6a91842617fc6ae9392ccba
-  languageName: node
-  linkType: hard
-
-"posthtml-modules@npm:^0.9.0":
-  version: 0.9.0
-  resolution: "posthtml-modules@npm:0.9.0"
-  dependencies:
-    is-json: ^2.0.1
-    lodash: ^4.17.21
-    posthtml-expressions: ^1.9.0
-    posthtml-match-helper: ^1.0.3
-    posthtml-render: ^3.0.0
-  checksum: c9e58730ca6cb87e4d8097c3bc2458fe48b2bdb26bc21acb68979f0a33ef21ee526a107bef826e85fae1fe7cc3db74983ae97f05ca6711e1ca38f1d0f7038126
   languageName: node
   linkType: hard
 
@@ -5182,7 +5189,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"query-string@npm:^7.1.0, query-string@npm:^7.1.1":
+"query-string@npm:^7.1.1, query-string@npm:^7.1.3":
   version: 7.1.3
   resolution: "query-string@npm:7.1.3"
   dependencies:
@@ -5533,7 +5540,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "root-workspace-0b6124@workspace:."
   dependencies:
-    "@maizzle/framework": 4.2.5
+    "@maizzle/framework": 4.4.0-beta.7
     tailwindcss-box-shadow: ^2.0.0
     tailwindcss-email-variants: ^2.0.0
     tailwindcss-mso: ^1.3.0
@@ -6190,6 +6197,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"style-to-object@npm:^0.3.0":
+  version: 0.3.0
+  resolution: "style-to-object@npm:0.3.0"
+  dependencies:
+    inline-style-parser: 0.1.1
+  checksum: 4d7084015207f2a606dfc10c29cb5ba569f2fe8005551df7396110dd694d6ff650f2debafa95bd5d147dfb4ca50f57868e2a7f91bf5d11ef734fe7ccbd7abf59
+  languageName: node
+  linkType: hard
+
 "stylehacks@npm:^4.0.0":
   version: 4.0.3
   resolution: "stylehacks@npm:4.0.3"
@@ -6305,7 +6321,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tailwindcss@npm:^3.1.0":
+"tailwindcss@npm:^3.2.4":
   version: 3.2.4
   resolution: "tailwindcss@npm:3.2.4"
   dependencies:
