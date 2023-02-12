@@ -2144,7 +2144,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"front-matter@npm:^4.0.0":
+"front-matter@npm:^4.0.0, front-matter@npm:^4.0.2":
   version: 4.0.2
   resolution: "front-matter@npm:4.0.2"
   dependencies:
@@ -3726,6 +3726,15 @@ __metadata:
   version: 4.3.0
   resolution: "map-obj@npm:4.3.0"
   checksum: fbc554934d1a27a1910e842bc87b177b1a556609dd803747c85ece420692380827c6ae94a95cce4407c054fa0964be3bf8226f7f2cb2e9eeee432c7c1985684e
+  languageName: node
+  linkType: hard
+
+"markdown-it-attrs@npm:^4.1.6":
+  version: 4.1.6
+  resolution: "markdown-it-attrs@npm:4.1.6"
+  peerDependencies:
+    markdown-it: ">= 9.0.0"
+  checksum: 3487fab315a5955f1882edcb29b5362fcdc9a369c4cd1c38688b3d32a145254094d2d8389bdd6887c3af66f9a9a75143f167d88421dcf201e54ec587675756a0
   languageName: node
   linkType: hard
 
@@ -5541,6 +5550,8 @@ __metadata:
   resolution: "root-workspace-0b6124@workspace:."
   dependencies:
     "@maizzle/framework": 4.4.0-beta.9
+    front-matter: ^4.0.2
+    markdown-it-attrs: ^4.1.6
     tailwindcss-box-shadow: ^2.0.0
     tailwindcss-email-variants: ^2.0.0
     tailwindcss-mso: ^1.3.0

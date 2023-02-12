@@ -9,10 +9,13 @@
 |
 */
 
+const fm = require("front-matter");
+
 module.exports = {
   build: {
     templates: {
       source: "src/templates",
+      filetypes: ["md"],
       destination: {
         path: "build_local",
       },
@@ -26,14 +29,21 @@ module.exports = {
   events: {
     async beforeRender(html, config) {
       try {
+        const { body } = fm(html);
+
         const match = html.match(/<div>(.*)<\/div>/);
-        const extracted = match[1];
+        const extracted = match?.[1];
 
         console.log(
           `\n -> should be: ${extracted} but is ${config.build.current.path.name}`
         );
 
-        return html;
+        // return html;
+
+        return `
+          <x-main>
+              <md>${body}</md>
+          </x-main>`;
       } catch (error) {
         console.log("error", error);
         return html;
