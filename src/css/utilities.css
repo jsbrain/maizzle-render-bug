@@ -12,4 +12,8 @@
   .break-word {
     word-break: break-word;
   }
+
+  /* .prose-content {
+    @apply prose;
+  } */
 }

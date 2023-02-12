@@ -34,9 +34,9 @@ module.exports = {
         const match = html.match(/<div>(.*)<\/div>/);
         const extracted = match?.[1];
 
-        console.log(
-          `\n -> should be: ${extracted} but is ${config.build.current.path.name}`
-        );
+        // console.log(
+        //   `\n -> should be: ${extracted} but is ${config.build.current.path.name}`
+        // );
 
         // return html;
 
